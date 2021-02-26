@@ -1,0 +1,9 @@
+server:
+  port: 9002
+
+spring:
+  application:
+    name: config-client
+  config:
+    import: optional:configserver:http://localhost:9001
+
